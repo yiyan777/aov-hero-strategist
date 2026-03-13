@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>json字串練習</title>
+    <link rel="stylesheet" href="./style/heros.css" />
+  </head>
+  <body>
+    <h1 id="title">所有英雄</h1>
+
+    <div class="btns-div">
+      <button id="showAllHeros">所有英雄</button>
+      <button id="lifeOver3000">血量大於 3000</button>
+      <div id="occupation-filter">
+        <button data-type="法師">法師</button>
+        <button data-type="射手">射手</button>
+        <button data-type="輔助">輔助</button>
+        <button data-type="坦克">坦克</button>
+        <button data-type="刺客">刺客</button>
+        <button data-type="戰士">戰士</button>
+      </div>
+    </div>
+
+    <div id="heros" class="heros"></div>
+
+    <script type="module" src="./js/pages/heros/heroController.js"></script>
+  </body>
+</html>
