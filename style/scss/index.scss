@@ -1,8 +1,24 @@
-$primary-gold: #d4af37;
+$primary-gold: black;
 
 body {
-  background-color: #000;
+  background-color: azure;
   h1 {
     color: $primary-gold;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }

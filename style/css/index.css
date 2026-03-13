@@ -1,6 +1,21 @@
 body {
-  background-color: #000;
+  background-color: azure;
 }
 body h1 {
-  color: #d4af37;
+  color: black;
+  text-align: center;
+}
+body ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+body ul a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=index.css.map */
