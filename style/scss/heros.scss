@@ -10,18 +10,20 @@ header.toolbar {
   gap: 5px;
   position: relative;
   margin-top: 10px;
-}
-header.toolbar h1 {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-header.toolbar a {
-  position: absolute;
-  top: 20px;
-  right: 10px;
-  color: black;
-  text-decoration: none;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: black;
+    text-decoration: none;
+  }
 }
 
 .hero-wrapper {
@@ -72,4 +74,10 @@ header.toolbar a {
   cursor: pointer;
   border: none;
   border-radius: 5%;
-}/*# sourceMappingURL=heros.css.map */
+}
+
+// @media (max-width: 450px) {
+//   div.hero-wrapper {
+//     width: 250px;
+//   }
+// }
