@@ -1,0 +1,201 @@
+[
+  {
+    "id": 0,
+    "name": "莉莉安",
+    "occupation": ["法師", "刺客"],
+    "life": 2000,
+    "moving": true,
+    "control": true,
+    "traits": ["%傷"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/63/20180214010600-8211.jpg"
+  },
+  {
+    "id": 1,
+    "name": "艾瑞",
+    "occupation": ["坦克", "輔助"],
+    "life": 4500,
+    "moving": false,
+    "control": true,
+    "traits": ["恢復"]
+  },
+  {
+    "id": 2,
+    "name": "牛魔王",
+    "occupation": ["坦克", "輔助"],
+    "life": 5500,
+    "moving": true,
+    "control": true,
+    "traits": ["霸體"]
+  },
+  {
+    "id": 3,
+    "name": "龍馬",
+    "occupation": ["戰士", "刺客"],
+    "life": 3500,
+    "moving": true,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 4,
+    "name": "摩恩",
+    "occupation": ["射手"],
+    "life": 3200,
+    "moving": false,
+    "control": false,
+    "traits": []
+  },
+  {
+    "id": 5,
+    "name": "菫",
+    "occupation": ["射手"],
+    "life": 2800,
+    "moving": true,
+    "control": false,
+    "traits": []
+  },
+  {
+    "id": 6,
+    "name": "森圖爾特",
+    "occupation": ["射手"],
+    "life": 3000,
+    "moving": true,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 7,
+    "name": "靈靈",
+    "occupation": ["射手"],
+    "life": 2900,
+    "moving": true,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 8,
+    "name": "葉納",
+    "occupation": ["戰士", "刺客"],
+    "life": 3600,
+    "moving": true,
+    "control": true,
+    "traits": ["霸體"]
+  },
+  {
+    "id": 9,
+    "name": "弗洛倫",
+    "occupation": ["戰士"],
+    "life": 3800,
+    "moving": true,
+    "control": true,
+    "traits": ["真傷"]
+  },
+  {
+    "id": 10,
+    "name": "瑪迦",
+    "occupation": ["法師"],
+    "life": 4200,
+    "moving": true,
+    "control": false,
+    "traits": ["恢復"]
+  },
+  {
+    "id": 11,
+    "name": "克里希",
+    "occupation": ["法師"],
+    "life": 2400,
+    "moving": false,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 12,
+    "name": "颯迦",
+    "occupation": ["法師", "刺客"],
+    "life": 2600,
+    "moving": true,
+    "control": false,
+    "traits": []
+  },
+  {
+    "id": 13,
+    "name": "穆加爵",
+    "occupation": ["法師", "輔助"],
+    "life": 3100,
+    "moving": false,
+    "control": false,
+    "traits": ["恢復"]
+  },
+  {
+    "id": 14,
+    "name": "阿萊斯特",
+    "occupation": ["法師"],
+    "life": 2500,
+    "moving": false,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 15,
+    "name": "刀鋒寶貝",
+    "occupation": ["刺客"],
+    "life": 3200,
+    "moving": true,
+    "control": false,
+    "traits": []
+  },
+  {
+    "id": 16,
+    "name": "蘭鐸",
+    "occupation": ["刺客", "射手"],
+    "life": 2700,
+    "moving": true,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 17,
+    "name": "納克羅斯",
+    "occupation": ["刺客"],
+    "life": 3000,
+    "moving": true,
+    "control": true,
+    "traits": []
+  },
+  {
+    "id": 18,
+    "name": "布萊特",
+    "occupation": ["戰士", "射手"],
+    "life": 3400,
+    "moving": true,
+    "control": true,
+    "traits": ["真傷"]
+  },
+  {
+    "id": 19,
+    "name": "古木",
+    "occupation": ["坦克", "輔助"],
+    "life": 5800,
+    "moving": false,
+    "control": true,
+    "traits": ["恢復"]
+  },
+  {
+    "id": 20,
+    "name": "海倫",
+    "occupation": ["輔助"],
+    "life": 2800,
+    "moving": false,
+    "control": false,
+    "traits": ["恢復"]
+  },
+  {
+    "id": 21,
+    "name": "查戈納爾",
+    "occupation": ["輔助", "坦克"],
+    "life": 5200,
+    "moving": true,
+    "control": false,
+    "traits": ["霸體"]
+  }
+]
