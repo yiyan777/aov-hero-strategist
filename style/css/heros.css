@@ -1,75 +1,103 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: azure;
 }
 
 header.toolbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  position: relative;
-  margin-top: 10px;
 }
 header.toolbar h1 {
   text-align: center;
   margin: 0;
   padding: 0;
+  color: grey;
 }
-header.toolbar a {
+header.toolbar nav a {
   position: absolute;
   top: 20px;
   right: 10px;
-  color: black;
+  color: grey;
   text-decoration: none;
 }
 
-.hero-wrapper {
+div.heros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.heros .hero-wrapper {
   position: relative;
   width: 200px;
   margin: 5px;
   text-align: center;
   border-radius: 15px;
-  background-color: azure;
+  background-color: lightcyan;
+}
+div.heros .hero-wrapper .hero-img {
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 15px;
 }
 
-.heros {
+section.filter-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.filter-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
-#showAllHeros {
-  cursor: pointer;
+section.filter-container button {
+  font-size: 20px;
   border: none;
-  border-radius: 5%;
-}
-
-#lifeOver3000 {
+  border-radius: 10%;
   cursor: pointer;
-  border: none;
-  border-radius: 5%;
+  padding: 10px;
 }
-
-#occupation-filter {
+section.filter-container .main-filters {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
-  align-items: center;
+  gap: 20px;
+}
+section.filter-container .tag-filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-#occupation-filter button {
-  cursor: pointer;
-  border: none;
-  border-radius: 5%;
+@media (max-width: 500px) {
+  section.filter-container {
+    gap: 10px;
+  }
+  section.filter-container button {
+    font-size: 16px;
+  }
+  section.filter-container .main-filters {
+    flex-basis: 360px;
+  }
+  section.filter-container .tag-filters {
+    flex-basis: 200px;
+    gap: 15px;
+  }
+}
+@media (max-width: 450px) {
+  div.hero-wrapper {
+    width: 250px;
+  }
+  header.toolbar nav a {
+    top: 46px;
+    right: 5px;
+  }
 }/*# sourceMappingURL=heros.css.map */

@@ -16,7 +16,8 @@
     "life": 4500,
     "moving": false,
     "control": true,
-    "traits": ["恢復"]
+    "traits": ["恢復"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/66/20180518100131-8115.jpg"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "life": 5500,
     "moving": true,
     "control": true,
-    "traits": ["霸體"]
+    "traits": ["霸體"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/1/20190805022622-8979.jpg"
   },
   {
     "id": 3,
@@ -34,7 +36,8 @@
     "life": 3500,
     "moving": true,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/54/20170907112711-5290.jpg"
   },
   {
     "id": 4,
@@ -43,16 +46,18 @@
     "life": 3200,
     "moving": false,
     "control": false,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/56/20170929114445-8875.jpg"
   },
   {
     "id": 5,
-    "name": "菫",
+    "name": "堇",
     "occupation": ["射手"],
     "life": 2800,
     "moving": true,
     "control": false,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/4/20190805024953-3260.jpg"
   },
   {
     "id": 6,
@@ -61,7 +66,8 @@
     "life": 3000,
     "moving": true,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/49/20170629044540-6590.jpg"
   },
   {
     "id": 7,
@@ -70,16 +76,18 @@
     "life": 2900,
     "moving": true,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/64/20180316062404-5769.jpg"
   },
   {
     "id": 8,
-    "name": "葉納",
+    "name": "葉娜",
     "occupation": ["戰士", "刺客"],
     "life": 3600,
     "moving": true,
     "control": true,
-    "traits": ["霸體"]
+    "traits": ["霸體"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/85/20191208090558-9539.jpg"
   },
   {
     "id": 9,
@@ -88,7 +96,8 @@
     "life": 3800,
     "moving": true,
     "control": true,
-    "traits": ["真傷"]
+    "traits": ["真傷"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/78/20190221061837-7570.jpg"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "life": 4200,
     "moving": true,
     "control": false,
-    "traits": ["恢復"]
+    "traits": ["恢復"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/68/20180615092509-1760.jpg"
   },
   {
     "id": 11,
@@ -106,16 +116,18 @@
     "life": 2400,
     "moving": false,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/20/20161006042623-5332.jpg"
   },
   {
     "id": 12,
-    "name": "颯迦",
-    "occupation": ["法師", "刺客"],
+    "name": "令月",
+    "occupation": ["法師"],
     "life": 2600,
     "moving": true,
     "control": false,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/111/54500.jpg"
   },
   {
     "id": 13,
@@ -124,7 +136,8 @@
     "life": 3100,
     "moving": false,
     "control": false,
-    "traits": ["恢復"]
+    "traits": ["恢復"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/26/20190426082152-1469.jpg"
   },
   {
     "id": 14,
@@ -133,7 +146,8 @@
     "life": 2500,
     "moving": false,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/18/20190426082043-8447.jpg"
   },
   {
     "id": 15,
@@ -142,7 +156,8 @@
     "life": 3200,
     "moving": true,
     "control": false,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/7/20190426081710-1941.jpg"
   },
   {
     "id": 16,
@@ -151,7 +166,8 @@
     "life": 2700,
     "moving": true,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/91/20191031070459-5940.jpg"
   },
   {
     "id": 17,
@@ -160,7 +176,8 @@
     "life": 3000,
     "moving": true,
     "control": true,
-    "traits": []
+    "traits": [],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/16/20210504051622-3299.jpg"
   },
   {
     "id": 18,
@@ -169,7 +186,8 @@
     "life": 3400,
     "moving": true,
     "control": true,
-    "traits": ["真傷"]
+    "traits": ["真傷"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/108/54000.jpg"
   },
   {
     "id": 19,
@@ -178,7 +196,8 @@
     "life": 5800,
     "moving": false,
     "control": true,
-    "traits": ["恢復"]
+    "traits": ["恢復"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/71/20180917071916-4961.jpg"
   },
   {
     "id": 20,
@@ -187,7 +206,8 @@
     "life": 2800,
     "moving": false,
     "control": false,
-    "traits": ["恢復"]
+    "traits": ["恢復"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/36/20170105054334-6591.jpg"
   },
   {
     "id": 21,
@@ -196,6 +216,7 @@
     "life": 5200,
     "moving": true,
     "control": false,
-    "traits": ["霸體"]
+    "traits": ["霸體"],
+    "img": "https://cdngarenanow-a.akamaihd.net/mgames/kgcenter/tw/client/GameData/Hero/23/20161012122640-2297.jpg"
   }
 ]

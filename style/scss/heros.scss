@@ -1,83 +1,124 @@
+@use "variables";
+
 body {
   padding: 0;
   margin: 0;
+  background-color: variables.$primary-bg-color;
 }
 
 header.toolbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  position: relative;
-  margin-top: 10px;
 
   h1 {
     text-align: center;
     margin: 0;
     padding: 0;
+    color: variables.$primary-color;
   }
 
-  a {
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    color: black;
-    text-decoration: none;
+  nav {
+    a {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      color: variables.$primary-color;
+      text-decoration: none;
+    }
   }
 }
 
-.hero-wrapper {
-  position: relative;
-  width: 200px;
-  margin: 5px;
-  text-align: center;
-  border-radius: 15px;
-  background-color: azure;
-}
-
-.heros {
+div.heros {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+  .hero-wrapper {
+    position: relative;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: lightcyan;
+
+    .hero-img {
+      // border: 1px solid black;
+      height: 120px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 15px;
+    }
+  }
 }
 
-.filter-container {
+section.filter-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  button {
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .main-filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .tag-filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }
 
-#showAllHeros {
-  cursor: pointer;
-  border: none;
-  border-radius: 5%;
+@media (max-width: 500px) {
+  section.filter-container {
+    gap: 10px;
+
+    button {
+      font-size: 16px;
+    }
+
+    .main-filters {
+      flex-basis: 360px;
+    }
+
+    .tag-filters {
+      flex-basis: 200px;
+      gap: 15px;
+    }
+  }
 }
 
-#lifeOver3000 {
-  cursor: pointer;
-  border: none;
-  border-radius: 5%;
-}
+@media (max-width: 450px) {
+  div.hero-wrapper {
+    width: 250px;
+  }
 
-#occupation-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
+  header.toolbar {
+    nav {
+      a {
+        top: 46px;
+        right: 5px;
+      }
+    }
+  }
 }
-
-#occupation-filter button {
-  cursor: pointer;
-  border: none;
-  border-radius: 5%;
-}
-
-// @media (max-width: 450px) {
-//   div.hero-wrapper {
-//     width: 250px;
-//   }
-// }

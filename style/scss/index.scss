@@ -1,9 +1,9 @@
-$primary-gold: black;
+@use "variables";
 
 body {
-  background-color: azure;
+  background-color: variables.$primary-bg-color;
   h1 {
-    color: $primary-gold;
+    color: variables.$primary-color;
     text-align: center;
   }
 

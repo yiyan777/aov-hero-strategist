@@ -44,32 +44,21 @@ export const showHeros = (Heros) => {
     const heroNameH3 = document.createElement("h3");
     const heroOccupationP = document.createElement("p");
     const heroLifeP = document.createElement("p");
-    const heroMoveP = document.createElement("p");
-    const heroControlP = document.createElement("p");
-    // const heroDeleteBtn = document.createElement("button");
 
-    // heroDeleteBtn.addEventListener("click", (e) => {
-    //   console.log(e.target.dataset);
-    //   const { id } = e.target.dataset; // 解構賦值
-    //   // 此時，View 應該立刻呼叫一個由 Controller 傳進來的「處理員（Handler）」，並把 id 當作參數丟進去。
-    //   console.log("view 偵測到點擊, 抓 id 並傳給 controller");
-    //   onDeleteClick(id);
-    // });
-
-    // heroDeleteBtn.dataset.id = h.id; // 設定 data-id 屬性
-    // heroDeleteBtn.dataset.name = h.name; // 設定 data-name 屬性
+    const heroImgDiv = document.createElement("div");
 
     heroNameH3.textContent = `名稱：${h.name}`;
     heroOccupationP.textContent = `職業：${h.occupation.join("/")}`; // .join()方法會將陣列的元素提出並組成字串
-    // console.log(typeof h.occupation.join("/"));
+
+    heroImgDiv.style.backgroundImage = `url(${h.img})`;
+
+    heroImgDiv.className = "hero-img";
 
     heroLifeP.textContent = `血量：${h.life}`;
-    // heroDeleteBtn.textContent = "X";
 
     heroWrapper.className = "hero-wrapper";
-    // heroDeleteBtn.className = "hero-delete-btn";
 
-    // heroWrapper.appendChild(heroDeleteBtn);
+    heroWrapper.appendChild(heroImgDiv);
     heroWrapper.appendChild(heroNameH3);
     heroWrapper.appendChild(heroOccupationP);
     heroWrapper.appendChild(heroLifeP);

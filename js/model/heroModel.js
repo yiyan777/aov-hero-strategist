@@ -6,7 +6,7 @@ export const getHerosData = async () => {
   if (cachedData) return cachedData;
 
   try {
-    const result = await fetch("data.json");
+    const result = await fetch("/data/data.json");
 
     if (!result.ok) {
       console.error("伺服器出現錯誤"); // 通常是伺服器問題（404, 500）
@@ -52,7 +52,7 @@ export const findHerosLifeOver3000 = async () => {
 
 export const resetData = async () => {
   try {
-    const result = await fetch("data.json");
+    const result = await fetch("/data/data.json");
 
     if (!result.ok) {
       console.error("伺服器出現錯誤"); // 通常是伺服器問題（404, 500）
